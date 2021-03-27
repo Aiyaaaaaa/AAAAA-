@@ -22,7 +22,7 @@ async def on_ready():
 async def react(message): 
     if message.content == "Meeting":
         await message.add_reaction("👍")
-
+#818344713550954517
 @bot.command()
 async def info(ctx):
     await ctx.send("Hello, thanks for testing out our bot. ~ techNOlogics")
